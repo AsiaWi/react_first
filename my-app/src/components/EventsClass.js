@@ -7,6 +7,7 @@ export class EventsClass extends Component {
   render() {
     return (
       <div>
+        {/* this handler call works as no state change exists */}
         <button onClick = {this.clickHandler}>click me - class component</button>
         </div>
     )

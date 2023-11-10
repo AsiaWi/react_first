@@ -7,6 +7,11 @@ import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallb
 import StatefulGreetingWithPreviousState from './components/StatefulGreetingWithPreviousState';
 import EventsFunctional from './components/EventsFunctional';
 import EventsClass from './components/EventsClass';
+import EventBinding from './components/EventBinding';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 function App() {
   return (
@@ -18,6 +23,11 @@ function App() {
       <StatefulGreetingWithPreviousState />
       <EventsFunctional />
       <EventsClass />
+      <EventBinding />
+      <ConditionalRenderingFunctional connected = {true} />
+      <ConditionalRenderingClass />
+      <NestingComponents />
+      <MethodsAsPropsParent />
     </div>
   );
 }
